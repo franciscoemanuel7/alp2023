@@ -1,0 +1,10 @@
+alert("Programa Cálculo");
+let v1 = Number(prompt("Digite o primeiro número: "));
+let v2 = Number(prompt("Digite o segundo número: "));
+let v3 = Number(prompt("Digite o terceiro número: "));
+let v4 = Number(prompt("Digite o quarto número: "));
+let m = Number(v1 * v3);
+let s = Number(v2 + v4);
+document.write(`${v1} x ${v3} = ${m}`);
+document.write("<br/>");
+document.write(`${v2} + ${v4} = ${s}`);

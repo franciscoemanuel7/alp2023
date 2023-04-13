@@ -1,0 +1,6 @@
+alert("Convesor de idades")
+let an = Number(prompt("Digite quantos anos você tem: "))
+let me = Number(prompt("Digite quantos meses você tem: "))
+let di = Number(prompt("Digite quantos dias você tem: "))
+let an_di = Number(an*360+me*30+di)
+document.write(`Sua idade de ${an} anos, ${me} meses e ${di} dias, convertendo somente paa dias é ${an_di} dias`)

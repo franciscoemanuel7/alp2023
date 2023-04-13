@@ -1,0 +1,14 @@
+let n1 = 10;
+let n2 = 20;
+document.write("<h1>Operadores Matemáticos</h1>");
+document.write("Soma<br>");
+let soma = n1 + n2;
+document.write(n1 + "+" + n2 + "=" + soma);
+document.write("<br>");
+document.write("Subtração<br>");
+let subtração = n1 - n2;
+document.write(n1 + "+" + n2 + "=" + soma);
+document.write("<br>");
+document.write("Multiplicação<br>");
+document.write("Divisão<br>");
+document.write("Resto da divisão inteira<br>");
