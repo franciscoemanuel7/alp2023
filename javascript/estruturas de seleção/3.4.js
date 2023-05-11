@@ -8,11 +8,12 @@ if (m>=7) {
 else if (m<7 && m>=5) {
     alert(`A média do aluno foi de ${m.toFixed(2)}. O aluno irá fazer a recuperação!`);
     let rec = Number(prompt("Digite sua nota de recuperação:"));
-    if(rec>=5){
-        document.write(`Parabéns, você tirou ${rec.toFixed(2)} na prova final e foi aprovado!`);
+    let m_rec = (m + rec)/2;
+    if(m_rec>=5){
+        document.write(`Parabéns, você tirou ${m_rec.toFixed(2)} na prova final e foi aprovado!`);
     }
     else {
-        document.write(`Infelizmente, sua nota foi ${rec.toFixed(2)}. Você foi reprovado!`)
+        document.write(`Infelizmente, sua nota foi ${m_rec.toFixed(2)}. Você foi reprovado!`)
     }
 }
 else {
