@@ -4,13 +4,13 @@ if (n==2){
     document.write("O número é primo!");
 }
 else if (n>2){
-    for (let i = 2; i<=n; i++){
+    for (let i = 2; i<=(n/2); i++){
         if (n%i==0){
             ePrimo = false;
             break;
         }
     }
-    if(ePrimo){
+    if(ePrimo && n >= 2){
         document.write("O número é primo!");
     }
     else {
