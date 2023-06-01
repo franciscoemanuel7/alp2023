@@ -4,4 +4,4 @@ let fat = 1;
 for (let i = num; i > 0; i--) {
     fat *= i;
 }
-document.write(`O fatorial de ${num} é ${fat}!`)
+document.write(`!${num} = ${fat}.`)
